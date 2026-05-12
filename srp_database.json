@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "app": "SRP P&C — Sistema de Registro de Paradas",
+    "createdAt": "2026-05-11T00:00:00.000Z",
+    "lastSync": "2026-05-11T00:00:00.000Z",
+    "records": 0,
+    "centros": 0
+  },
+  "centros": [],
+  "paradas": []
+}
