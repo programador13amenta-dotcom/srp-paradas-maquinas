@@ -2,9 +2,9 @@
   "_meta": {
     "version": "2.0",
     "app": "SRP P&C",
-    "createdAt": "2026-05-12T03:29:37.994Z",
-    "records": 2,
-    "centros": 1
+    "lastSync": "2026-05-12T12:44:45.909Z",
+    "records": 6,
+    "centros": 2
   },
   "centros": [
     {
@@ -18,6 +18,32 @@
           "nom": "Tester T50",
           "cap": 20,
           "tag": "T50"
+        }
+      ]
+    },
+    {
+      "id": "mp1fs157mgufwowd",
+      "nom": "02",
+      "desc": "MECANIZADO DE PIÑON",
+      "turno": "24",
+      "maq": [
+        {
+          "id": "mp1fsqxlsum2sse5",
+          "nom": "CORTADORA 461",
+          "cap": 30,
+          "tag": ""
+        },
+        {
+          "id": "mp1ft6n7gfkxy978",
+          "nom": "TESTER T50",
+          "cap": 23,
+          "tag": "T50"
+        },
+        {
+          "id": "mp1ftnc6wva1l277",
+          "nom": "LAPER 458",
+          "cap": 30,
+          "tag": ""
         }
       ]
     }
@@ -43,6 +69,44 @@
       "ts": 1778555620376
     },
     {
+      "id": "mp1g3dwvz4iwzk85",
+      "cid": "mp1fs157mgufwowd",
+      "cNom": "02",
+      "mid": "mp1ftnc6wva1l277",
+      "mNom": "LAPER 458",
+      "fecha": "2026-05-11",
+      "ini": "06:00",
+      "fin": "13:00",
+      "dur": 420,
+      "cat": "Parada de Calidad",
+      "resp": "MAURO",
+      "causa": "FUERA DE MEDIDA",
+      "pz": 210,
+      "notas": "CONSIGNADOS",
+      "mec": "PROVEEDOR",
+      "trep": 420,
+      "ts": 1778518666543
+    },
+    {
+      "id": "mp1fww5yxkd01wbx",
+      "cid": "mp1fs157mgufwowd",
+      "cNom": "02",
+      "mid": "mp1fsqxlsum2sse5",
+      "mNom": "CORTADORA 461",
+      "fecha": "2026-05-11",
+      "ini": "09:00",
+      "fin": "15:00",
+      "dur": 360,
+      "cat": "Avería Mecánica",
+      "resp": "MAURO",
+      "causa": "ROTURA",
+      "pz": 180,
+      "notas": "",
+      "mec": "MECANICO 3",
+      "trep": 360,
+      "ts": 1778518363606
+    },
+    {
       "id": "moz6pmgayl28kiej",
       "cid": "moz6mxbrzdjwkixh",
       "cNom": "Lapidado y testeado",
@@ -60,6 +124,44 @@
       "mec": "Mecanico 1",
       "trep": 180,
       "ts": 1778381975530
+    },
+    {
+      "id": "mp1fxuxcvsxtwfzj",
+      "cid": "mp1fs157mgufwowd",
+      "cNom": "02",
+      "mid": "mp1ftnc6wva1l277",
+      "mNom": "LAPER 458",
+      "fecha": "2026-05-09",
+      "ini": "06:10",
+      "fin": "10:00",
+      "dur": 230,
+      "cat": "Avería Eléctrica",
+      "resp": "MAURO",
+      "causa": "CABLES",
+      "pz": 115,
+      "notas": "",
+      "mec": "MECANICO 3",
+      "trep": 230,
+      "ts": 1778518408656
+    },
+    {
+      "id": "mp1fw50u4o77ctcl",
+      "cid": "mp1fs157mgufwowd",
+      "cNom": "02",
+      "mid": "mp1ft6n7gfkxy978",
+      "mNom": "TESTER T50",
+      "fecha": "2026-05-09",
+      "ini": "06:00",
+      "fin": "23:00",
+      "dur": 1020,
+      "cat": "Avería Mecánica",
+      "resp": "Mauro",
+      "causa": "ROTURA DISCO",
+      "pz": 391,
+      "notas": "",
+      "mec": "MECANICO 1",
+      "trep": 1020,
+      "ts": 1778518328430
     }
   ]
 }
