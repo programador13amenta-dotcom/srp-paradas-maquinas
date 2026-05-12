@@ -1,12 +1,84 @@
 {
   "_meta": {
     "version": "2.0",
-    "app": "SRP P&C — Sistema de Registro de Paradas",
-    "createdAt": "2026-05-11T00:00:00.000Z",
-    "lastSync": "2026-05-11T00:00:00.000Z",
-    "records": 0,
-    "centros": 0
+    "app": "SRP P&C",
+    "createdAt": "2026-05-12T02:46:43.940Z",
+    "records": 3,
+    "centros": 1
   },
-  "centros": [],
-  "paradas": []
+  "centros": [
+    {
+      "id": "mp1zmoj0qko8zg2y",
+      "nom": "LAPIDADO Y TESTEADO",
+      "desc": "PROCESO DE LAPIDADO Y TESTEADO DE PIÑON-CORONA",
+      "turno": "24",
+      "maq": [
+        {
+          "id": "mp1zmy46d8oal8er",
+          "nom": "TESTER T50",
+          "cap": 23,
+          "tag": "T50"
+        }
+      ]
+    }
+  ],
+  "paradas": [
+    {
+      "id": "mp20a5muk4jhp3ym",
+      "cid": "mp1zmoj0qko8zg2y",
+      "cNom": "LAPIDADO Y TESTEADO",
+      "mid": "mp1zmy46d8oal8er",
+      "mNom": "TESTER T50",
+      "fecha": "2026-05-12",
+      "ini": "23:05",
+      "fin": "23:22",
+      "dur": 17,
+      "cat": "Ajuste / Regulación",
+      "resp": "MAURO",
+      "causa": "CAMBIOS EN PLAN",
+      "pz": 7,
+      "notas": "",
+      "mec": "MECANICO 2",
+      "trep": 17,
+      "ts": 1778552574726
+    },
+    {
+      "id": "mp1zztak3rxsie0s",
+      "cid": "mp1zmoj0qko8zg2y",
+      "cNom": "LAPIDADO Y TESTEADO",
+      "mid": "mp1zmy46d8oal8er",
+      "mNom": "TESTER T50",
+      "fecha": "2026-05-11",
+      "ini": "23:00",
+      "fin": "23:15",
+      "dur": 15,
+      "cat": "Parada de Calidad",
+      "resp": "MAURO",
+      "causa": "PROBLEMA DIMENSIONAL",
+      "pz": 6,
+      "notas": "",
+      "mec": "CALIDAD",
+      "trep": 15,
+      "ts": 1778552092172
+    },
+    {
+      "id": "mp1zpw50tlntisst",
+      "cid": "mp1zmoj0qko8zg2y",
+      "cNom": "LAPIDADO Y TESTEADO",
+      "mid": "mp1zmy46d8oal8er",
+      "mNom": "TESTER T50",
+      "fecha": "2026-05-11",
+      "ini": "12:12",
+      "fin": "22:12",
+      "dur": 600,
+      "cat": "Avería Mecánica",
+      "resp": "MAURO",
+      "causa": "ROTURA HIDRAULICA",
+      "pz": 230,
+      "notas": "NO OK",
+      "mec": "MECANICO 1",
+      "trep": 600,
+      "ts": 1778551629300
+    }
+  ]
 }
